@@ -1,5 +1,5 @@
 # Better YouTube Sharing
-## Share YouTube short URLs easily without tracking nonsense!
+Share YouTube short URLs easily without tracking nonsense!
 
 ## Usage:
 - Open a video
