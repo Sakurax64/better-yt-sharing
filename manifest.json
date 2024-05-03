@@ -1,8 +1,14 @@
 {
 	"manifest_version": 3,
 	"name": "Better Youtube Sharing",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Right click anywhere while playing a video to share without tracking nonsense.",
+	"browser_specific_settings": {
+		"gecko": {
+			"id": "better-yt-sharing@sakurax64.dev",
+			"strict_min_version": "109.0"
+		}
+	},
 	"permissions": [
 		"activeTab",
 		"tabs",
@@ -17,9 +23,6 @@
 		{
 			"matches": [
 				"https://youtube.com/*"
-			],
-			"js": [
-				"index.js"
 			]
 		}
 	],
